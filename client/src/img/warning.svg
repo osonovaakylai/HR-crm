@@ -1,0 +1,22 @@
+<svg width="25" height="22" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 11</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-26787 -17715)">
+<g id="Group 11">
+<g id="Polygon">
+<use xlink:href="#path0_fill" transform="translate(26787 17715)" fill="#FF3850"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(26797.5 17731.4)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 21">
+<use xlink:href="#path2_fill" transform="translate(26797.5 17720.1)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 11.617 0.511628C 12.0094 -0.170543 12.9906 -0.170542 13.383 0.511628L 24.8619 20.4651C 25.2543 21.1473 24.7638 22 23.9789 22L 1.02111 22C 0.23623 22 -0.25432 21.1473 0.13812 20.4651L 11.617 0.511628Z"/>
+<path id="path1_fill" d="M 4.07836 2.04651C 4.07836 3.17677 3.16539 4.09302 2.03918 4.09302C 0.912973 4.09302 0 3.17677 0 2.04651C 0 0.916254 0.912973 0 2.03918 0C 3.16539 0 4.07836 0.916254 4.07836 2.04651Z"/>
+<path id="path2_fill" d="M 0.0792417 1.07361C 0.0364545 0.493904 0.495248 0 1.07653 0L 3.00183 0C 3.58311 0 4.04191 0.493904 3.99912 1.07361L 3.46701 8.28291C 3.42846 8.80522 2.99345 9.2093 2.46972 9.2093L 1.60864 9.2093C 1.08491 9.2093 0.649902 8.80522 0.611351 8.28291L 0.0792417 1.07361Z"/>
+</defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="12" height="12" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 5.1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-24358 -40153)">
+<g id="Group 5.1">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(24359 40154)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="matrix(-1 0 0 1 24369 40154)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M -0.353553 0.353553L 9.64645 10.3536L 10.3536 9.64645L 0.353553 -0.353553L -0.353553 0.353553Z"/>
+</defs>
+</svg>

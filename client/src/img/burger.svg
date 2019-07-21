@@ -1,0 +1,36 @@
+<svg width="30" height="16" viewBox="0 0 30 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>burger</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-25798 -30016)">
+<rect x="25798" y="30016" width="30" height="16" fill="#3B3B3B"/>
+<g id="Header Close alerts">
+<g id="bg" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(25774 29992)" fill="#FFFFFF"/>
+</g>
+<g id="burger" opacity="0.54">
+<g id="b">
+<use xlink:href="#path1_fill" transform="translate(25798 30030)" fill="#162229"/>
+</g>
+<g id="c">
+<use xlink:href="#path1_fill" transform="translate(25798 30023)" fill="#162229"/>
+</g>
+<g id="t">
+<use xlink:href="#path1_fill" transform="translate(25798 30016)" fill="#162229"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="25762" y="29984" width="399" height="88" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="6"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 0L 375 0L 375 64L 0 64L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 30 0L 30 2L 0 2L 0 0Z"/>
+</defs>
+</svg>

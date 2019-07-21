@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=375">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HR Management System</title>
+  <style type="text/css">
+    html, body {
+      margin:  0;
+      padding: 0;
+      width:   100%;
+    }
+
+    .loader {
+      position:        fixed;
+      top:             0;
+      left:            0;
+      z-index:         999999;
+      width:           100%;
+      height:          100vh;
+      background:      #FAFAFA;
+      align-items:     center;
+      justify-content: center;
+      display:         none;
+
+    @keyframes loader {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    &
+    .load {
+      display: flex;
+
+    img {
+      animation: loader 1.5s infinite linear;
+    }
+
+    }
+    }
+  </style>
+</head>
+<body>
+<div class="loader load" id="loader">
+  <img src='/img/loader.svg'/>
+</div>
+<div id="root"></div>
+<script src="/static/bundle.js"></script>
+<script type="text/javascript" src="/vendor.bundle.js"></script><script type="text/javascript" src="/bundle.js"></script></body>
+</html>

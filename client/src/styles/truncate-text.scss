@@ -1,0 +1,28 @@
+.truncate-content {
+  width: 100% !important;
+  word-break: break-all;
+  span {
+    display: inline-block;
+  }
+}
+
+.more, .less {
+  text-decoration: underline;
+  display: inline!important;
+  color: #162229 !important;
+  font-weight: 500;
+  padding-left: 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.less-button {
+  float:         right !important;
+  padding-right: 5px;
+
+}
+.nowrap {
+  white-space: normal;
+}

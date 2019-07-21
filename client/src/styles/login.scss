@@ -1,0 +1,196 @@
+.form-wrapper {
+  max-width:   580px;
+  margin:      13% auto auto;
+  font-size:   16px;
+
+  .login-form, .forgot-pass-form {
+    padding:            20px 60px;
+    -webkit-box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:    0px 4px 12px 2px rgba(0, 0, 0, 0.1);
+    box-shadow:         0px 4px 12px 2px rgba(0, 0, 0, 0.1);
+    border-radius:      3px;
+    form {
+      padding:       initial;
+      background:    initial;
+      border-radius: initial;
+      margin-bottom: initial;
+      box-shadow:    initial;
+      width:         100%;
+    }
+  }
+  .form-header {
+    text-align: center;
+    padding:    20px 0 15px
+  }
+
+  .form-header h2 {
+    margin:      0;
+    font-size:   24px;
+    padding-top: 34px;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .form-header img {
+    width: 130px;
+  }
+
+  p {
+    line-height: normal;
+  }
+
+  .form-group {
+    flex-direction: column;
+    padding-top:    10px;
+    display:        flex;
+    flex:           1;
+  }
+
+  div .form-group:first-child {
+    padding-bottom: 30px;
+  }
+
+  .form-group input {
+    height: 36px;
+    padding:       10px 10px 9px;
+    background:    #F5F5F5;
+    border:        1px solid #D2D2D2;
+    outline:       none;
+    border-radius: 2px
+  }
+
+  .login-form-labels input[type="checkbox"] {
+    display: none;
+  }
+
+  label, a, span {
+    padding-bottom:  4px;
+    font-size:       16px;
+    color:           #9da7a8;
+    text-decoration: none;
+    vertical-align:  top;
+  }
+
+  .text-color-red {
+    color: #ff475d;
+  }
+
+  .login-form-labels {
+    padding: 10px 0px 18px;
+  }
+
+  .login-form-actions {
+    position: relative;
+    padding:  26px 0;
+  }
+
+  .login-form-labels .forgot-link {
+    float:    right;
+    overflow: hidden;
+  }
+
+  .login-button {
+    width: 294px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .login-button-second {
+    width: 294px;
+    outline: none;
+    cursor: pointer;
+    color: inherit;
+    //background-color: #344955 !important;
+    background-color: transparent !important;
+    border: 1px solid #344955 !important;
+
+    &:hover {
+      background-color: #344955 !important;
+      color: #FFFFFF;
+    }
+  }
+
+  .forgot-pass-form .form-header {
+    padding: 20px 0 15px;
+  }
+
+  .forgot-pass-form p {
+    margin:      0;
+    padding-top: 10px;
+  }
+
+  .login-form-actions.fogot-pass-actions {
+    padding-top: 22px !important;
+  }
+
+  .login-google {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 25px 0;
+    p {
+      margin: 10px 0 10px 0;
+    }
+    button {
+      box-shadow: none !important;
+      background: transparent !important;
+      div {
+        background: transparent !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width:    100%;
+    margin-left:  8px;
+    margin-right: 8px;
+    margin-top:   26%;
+
+    .logo {
+      text-align: center;
+    }
+    .login-form {
+      padding: 22px 16px;
+    }
+    .forgot-pass-form {
+      padding: 22px;
+    }
+    .form-header {
+      padding: 0;
+    }
+
+    .form-header img {
+      width:  60px;
+      height: 40px;
+    }
+    label, a, span {
+      font-size: 14px;
+    }
+    .form-header h2 {
+      font-size:   18px;
+      padding-top: 10px;
+
+    }
+
+    div.form-group:first-child {
+      padding-bottom: 17px;
+    }
+    .divider {
+      height: 95px;
+    }
+    .btn {
+      width:   48%;
+      padding: 14px 0;
+    }
+    .login-form-actions {
+      padding: 30px 12px;
+    }
+    .login-form-labels {
+      padding-top: 16px;
+    }
+    .forgot-pass-form .form-header {
+      padding: 0px 0 15px;
+    }
+  }
+}
+
